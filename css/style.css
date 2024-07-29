@@ -1,0 +1,549 @@
+
+body {
+    font-family: "";
+    color: var();
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
+h1, h2, h3, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 1220px;
+}
+
+.header {
+    padding-bottom: 90px;
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-left: auto;
+}
+
+.list-text {
+    color: #292F36;
+    font-family: Jost;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    letter-spacing: 0.4px;
+    transition: font-size 0.4s ease;
+}
+
+.list-text:hover {
+    color: #CDA274;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.4px;
+}
+
+.text-list-home {
+    width: 64.8px;
+    color: #292F36;
+    font-family: Jost;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    letter-spacing: 0.4px;
+}
+
+.text-list-aboutus {
+    width: 96px;
+    color: #292F36;
+    font-family: Jost;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    letter-spacing: 0.4px;
+}
+
+.text-list-servisec {
+    width: 90px;
+    color: #292F36;
+    font-family: Jost;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    letter-spacing: 0.4px;
+}
+
+.text-list-pages {
+    width: 90px;
+    color: #292F36;
+    font-family: Jost;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    letter-spacing: 0.4px;
+}
+
+.text-list-contact {
+    width: 116.4px;
+    color: #292F36;
+    font-family: Jost;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    letter-spacing: 0.4px;
+}
+
+.section-hero {
+    padding-top: 188px;
+    padding-bottom: 260px;
+    background-image: url(/img/backinterno.png);
+    background-repeat: no-repeat;
+    background-size: 1540px 831px;
+    background-position: center;
+}
+
+.hero-text {
+    width: 595px;
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96px; /* 120% */
+    letter-spacing: 0.22px;
+    margin-bottom: 19px;
+}
+
+.text-caption {
+    width: 577px;
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.text-description {
+    width: 373px;
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.button {
+    background-image: url(/img/buttonstart.png);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 34px;
+    border: none;
+    padding-right: 67px;
+    margin-top: 35px;
+}
+
+.button-text {
+    width: 106px;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    letter-spacing: 0.72px;
+}
+
+.section-interno {
+    padding-top: 99px;
+}
+
+.interno-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box-text {
+    margin-left: 153px;
+    margin-top: 75px;
+    margin-right: 153px;
+    width: 174px;
+    color: #292F36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px; /* 156% */
+    letter-spacing: 0.22px;
+}
+
+.text-describ {
+    margin-top: 17px;
+    margin-bottom: 68px;
+    margin-left: 82px;
+    margin-right: 82px;
+    width: 317px;
+    color: #4D5053;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+
+.button-box {
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    color: #4D5053;
+    text-align: center;
+    font-family: Jost;
+    background-color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    border: none;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    letter-spacing: 0.36px;
+    display: flex;
+    margin-left: 178px;
+    margin-right: 178px;
+}
+
+.box-texting {
+    margin-left: 185px;
+    margin-top: 75px;
+    margin-right: 185px;
+    width: 111px;
+    color: #292F36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px; /* 156% */
+    letter-spacing: 0.22px;
+}
+
+
+.text-describing {
+    margin-top: 17px;
+    margin-bottom: 35px;
+    margin-left: 92px;
+    margin-right: 92px;
+    width: 297px;
+    color: #4D5053;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.box-texts {
+    margin-left: 191px;
+    margin-top: 75px;
+    margin-right: 191px;
+    width: 98px;
+    color: #292F36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px; /* 156% */
+    letter-spacing: 0.22px;
+}
+
+
+.text-describs {
+    margin-top: 17px;
+    margin-bottom: 35px;
+    margin-left: 92px;
+    margin-right: 92px;
+    width: 297px;
+    color: #4D5053;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.section-mode {
+    padding-top: 99px;
+    padding-bottom: 99px;
+    background-image: url(../img/kitchenback.png);
+    background-repeat: no-repeat;
+    background-position: right
+}
+
+
+.mode-text {
+    margin-top: 40px;
+    margin-bottom: 42px;
+    width: 540px;
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px; /* 130% */
+    letter-spacing: 0.22px;
+}
+
+.text-mode-describrion {
+    width: 637.2px;
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.text {
+    width: 590.4px;
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.phone-contact {
+    gap: 24px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.phone-call {
+    border: none;
+    padding-top: 29px;
+    padding-bottom: 30px;
+    padding-left: 39px;
+    padding-right: 39px;
+    border-radius: 100px;
+    background: #F4F0EC;
+}
+
+.number {
+    width: 165.6px;
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.call-time {
+    width: 184.8px;
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.button-free {
+    margin-bottom: 37px;
+    margin-top: 50px;
+    background-image: url(../img/btnimage.png);
+    display: flex;
+    align-items: center;
+    padding-top: 21px;
+    padding-bottom: 23px;
+    padding-left: 40px;
+    padding-right: 130px;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    border: none;
+}
+
+.section-people{
+    border-radius: 70px;
+    background: #F4F0EC;
+    padding-bottom: 121px;
+}
+
+.people-head {
+    padding-top: 103px;
+    color: #292F36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58.5px; /* 130% */
+    letter-spacing: 0.22px;
+}
+
+.head-about {
+    color: #292F36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58.5px; /* 130% */
+    letter-spacing: 0.22px;
+}
+
+.conteiner {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 1337px;
+}
+
+.people-list {
+    display: flex;
+    margin-top: 100px;
+    gap: 22px;
+}
+
+.wrapper {
+    padding-top: 50px;
+    padding-left: 42px;
+    padding-right: 94px;
+    padding-bottom: 45px;
+    width: 424.8px;
+    height: 287px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+}
+
+.wrapper-flex {
+    display: flex;
+}
+
+.wrap {
+    padding-left: 42px;
+    padding-bottom: 45px;
+    padding-top: 50px;
+    padding-right: 95px;
+    width: 424.8px;
+    height: 287px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    margin-left: 61px;
+}
+
+.box-texting {
+    display: flex;
+}
+
+.information {
+    margin-left: 24px;
+}
+
+.name {
+    width: 171.6px;
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.people-from {
+    width: 147.6px;
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.text-interno {
+    margin-top: 25px;
+    width: 292.8px;
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.section-photo {
+    padding-top: 99px;
+    padding-bottom: 99px;
+}
+
+.list-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.style {
+    margin-left: 125px;
+    margin-right: 110px;
+
+}
+
+.nature {
+    margin-left: 89px;
+    margin-right: 112px;
+}
